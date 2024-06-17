@@ -6,9 +6,9 @@ import pickle
 import sklearn
 
 st.header('Car Prediction')
-# df = pd.read_csv("C:/Users/91837/Desktop/Git&github/Github/rishav/cars24-car-price.csv")
+df = pd.read_csv("C:/Users/91837/Desktop/Git&github/Github/rishav/cars24-car-price.csv")
 
-# st.dataframe(df)
+st.dataframe(df)
 
 
 Fuel_type = st.selectbox(
