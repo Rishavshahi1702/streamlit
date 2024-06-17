@@ -5,8 +5,8 @@ import datetime
 import pickle
 import sklearn
 
-st.header('Car Prediction')
-df = pd.read_csv("C:/Users/91837/Desktop/Git&github/Github/rishav/cars24-car-price.csv")
+# st.header('Car Prediction')
+# df = pd.read_csv("C:/Users/91837/Desktop/Git&github/Github/rishav/cars24-car-price.csv")
 
 st.dataframe(df)
 
